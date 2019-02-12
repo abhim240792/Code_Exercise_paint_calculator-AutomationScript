@@ -106,7 +106,7 @@ Navigate to the [Eclipse download page](https://eclipse.org/downloads/) and down
  ### <a id="from-eclipse"></a> Report Generation in Eclipse(Extent Report)
  
   1. After running the tests ,Right Click on the Project and slect **Refresh**
-  2. Go to directory : **test-output/Extent.html
+  2. Go to directory : **test-output/Extent.html**
   3. Right click on **Extent.html** and go to **Properties** and Copy the path from **location**.
   4. Open that Path in your browser.
   

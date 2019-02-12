@@ -1,6 +1,6 @@
 # Paint_Calculator_Automation 
 
-Java Maven TestNG Selenuim Webdriver 
+I have created a Automation Framework using Java, Maven ,TestNG, Selenuim Webdriver, & Extent Report. 
 
 ## Table of Contents
 There are a few things we need before running the tests. These are:
@@ -98,7 +98,7 @@ Navigate to the [Eclipse download page](https://eclipse.org/downloads/) and down
   1. Import this project into Eclispe
   1. Right click the project then select **Run As** --> **TestNG Tests**
   
-  or
+     or
     
   1. Import this project into Eclispe
   1. In Package Explorer view, right click "testng.xml" and select **"Run As"** --> **TestNG Suite**.

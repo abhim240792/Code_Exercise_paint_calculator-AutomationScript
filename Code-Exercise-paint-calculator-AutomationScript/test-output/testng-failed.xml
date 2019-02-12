@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Dais_Technologies.Code_Exercise_paint_calculator_AutomationScript.BaseTest">
+        <methods>
+          <include name="Initialization"/>
+          <include name="InternalServerErrorCase"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- Dais_Technologies.Code_Exercise_paint_calculator_AutomationScript.BaseTest -->
+      <class name="Dais_Technologies.Code_Exercise_paint_calculator_AutomationScript.ResultTest">
+        <methods>
+          <include name="Intialization"/>
+          <include name="GallonsReuired" invocation-numbers="0 1 2"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- Dais_Technologies.Code_Exercise_paint_calculator_AutomationScript.ResultTest -->
+      <class name="Dais_Technologies.Code_Exercise_paint_calculator_AutomationScript.DimensionsTest">
+        <methods>
+          <include name="quit"/>
+          <include name="Initialization"/>
+          <include name="InternalServerErrorCase"/>
+        </methods>
+      </class> <!-- Dais_Technologies.Code_Exercise_paint_calculator_AutomationScript.DimensionsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -111,7 +111,7 @@ Navigate to the [Eclipse download page](https://eclipse.org/downloads/) and down
   4. Open that Path in your browser.
   
   
-  ### <a id="from-command-line"></a> From the Command Line
+  ### <a id="from-command-line"></a> From the Command Line.
 
   Navigate to the location of project then execute:
  1. `mvn clean`. 
